@@ -6,4 +6,4 @@ Well, with THIS mod you can ADD BANANAS!!!
 
 So, its time to do the banana-dance!
 
-The one who makes you happy with creating this mod is LeonCoding.
+The one who makes you happy with creating this mod is LeonCoding (github: LeonLindner).
