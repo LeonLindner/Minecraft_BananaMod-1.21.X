@@ -1,4 +1,4 @@
-BANANA MOD!!
+# BANANA MOD!!
 
 Do you want bananas comes to Minecraft?
 Pretty sad, it is not standard in Minecraft...
