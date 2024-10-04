@@ -13,6 +13,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> BANANA = ITEMS.register("banana",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MUTATEDBANANA = ITEMS.register("mutatedbanana",
+            () -> new Item(new Item.Properties()));
 
 
 
