@@ -4,5 +4,9 @@
   "item.bananamod.threedimbanana": "3D Banana",
 
   "block.bananamod.banana_block": "Block of Banana",
-  "block.bananamod.mutated_banana_block": "Block of Mutated Banana"
+  "block.bananamod.mutated_banana_block": "Block of Mutated Banana",
+
+
+  "creativetab.bananamod.good_bananas": "Good Bananas",
+  "creativetab.bananamod.bad_bananas": "Bad Bananas"
 }
