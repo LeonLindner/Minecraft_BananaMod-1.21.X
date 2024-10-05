@@ -1,6 +1,7 @@
 package net.leoncoding.bananamod;
 
 import com.mojang.logging.LogUtils;
+import net.leoncoding.bananamod.block.ModBlocks;
 import net.leoncoding.bananamod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -32,6 +33,7 @@ public class BananaMod {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -49,6 +51,12 @@ public class BananaMod {
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.BANANA);
             event.accept(ModItems.MUTATEDBANANA);
+            event.accept(ModItems.THREEDIMBANANA);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.BANANA_BLOCK);
+            event.accept(ModBlocks.MUTATED_BANANA_BLOCK);
         }
     }
 

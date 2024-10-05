@@ -15,6 +15,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MUTATEDBANANA = ITEMS.register("mutatedbanana",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> THREEDIMBANANA = ITEMS.register("threedimbanana",
+            () -> new Item(new Item.Properties()));
 
 
 

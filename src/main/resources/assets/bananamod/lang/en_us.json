@@ -1,4 +1,8 @@
 {
   "item.bananamod.banana": "Banana",
-  "item.bananamod.mutatedbanana": "Mutated Banana"
+  "item.bananamod.mutatedbanana": "Mutated Banana",
+  "item.bananamod.threedimbanana": "3D Banana",
+
+  "block.bananamod.banana_block": "Block of Banana",
+  "block.bananamod.mutated_banana_block": "Block of Mutated Banana"
 }

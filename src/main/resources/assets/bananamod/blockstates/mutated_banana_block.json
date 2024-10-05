@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bananamod:block/mutated_banana_block"
+    }
+  }
+}
